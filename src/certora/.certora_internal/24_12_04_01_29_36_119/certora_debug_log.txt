@@ -1,0 +1,8 @@
+Saving last configuration file to .certora_internal/24_12_04_01_29_36_119/run.conf
+There is no TAC file. Going to script EVMVerifier/certoraBuild.py to main_with_args()
+Creating dir /workspaces/TEE-SmartContract/src/certora/.certora_internal/24_12_04_01_29_36_119/.certora_config
+In /workspaces/TEE-SmartContract/src/certora/add_BasicMathGood_to_add_uncheck_BasicMathBad_equivalence.spec, found the imports: []
+copying spec file /workspaces/TEE-SmartContract/src/certora/add_BasicMathGood_to_add_uncheck_BasicMathBad_equivalence.spec to /workspaces/TEE-SmartContract/src/certora/.certora_internal/24_12_04_01_29_36_119/.certora_sources/.0_add_BasicMathGood_to_add_uncheck_BasicMathBad_equivalence.spec.spec
+writing /workspaces/TEE-SmartContract/src/certora/.certora_internal/24_12_04_01_29_36_119/.certora_verify.json
+`java` is not installed. Installing Java version 11 or later will enable faster CVL specification syntax checking before uploading to the cloud.
+build failed

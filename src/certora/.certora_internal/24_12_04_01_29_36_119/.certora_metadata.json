@@ -1,0 +1,39 @@
+{
+    "CLI_package_name": "certora-cli",
+    "CLI_version": "7.20.3",
+    "branch": "master",
+    "certora_ci_client": null,
+    "conf": {
+        "files": [
+            "BasicMathGood.sol",
+            "BasicMathBad.sol"
+        ],
+        "loop_iter": "4",
+        "msg": "EquivalenceCheck of add and add_uncheck",
+        "optimistic_fallback": true,
+        "optimistic_loop": true,
+        "process": "emv",
+        "prover_args": [
+            "-assumeContractsHaveUniqueAddresses false",
+            "-enableStorageSplitting false"
+        ],
+        "rule_sanity": "basic",
+        "solc": "solc",
+        "verify": "BasicMathGood:add_BasicMathGood_to_add_uncheck_BasicMathBad_equivalence.spec"
+    },
+    "conf_path": "src/certora/add_BasicMathGood_to_add_uncheck_BasicMathBad_equivalence.conf",
+    "cwd_relative": "src/certora",
+    "dirty": true,
+    "group_id": null,
+    "main_spec": "add_BasicMathGood_to_add_uncheck_BasicMathBad_equivalence.spec",
+    "origin": "git@github.com:Franklinliu/TEE-SmartContract.git",
+    "python_version": "3.10.12",
+    "raw_args": [
+        "/home/vscode/.local/bin/certoraEqCheck",
+        "def",
+        "BasicMathGood.sol:add:solc",
+        "BasicMathBad.sol:add_uncheck:solc"
+    ],
+    "revision": "340914e103f5d080a35fa9210e21ec08beeb8c8c",
+    "timestamp": "1733275777.033337"
+}

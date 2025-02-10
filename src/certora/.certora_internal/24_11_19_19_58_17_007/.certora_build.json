@@ -1,0 +1,378 @@
+{
+    "BasicMathBad_00000000ce4604a0000000000000000000000001": {
+        "contracts": [
+            {
+                "address": "00000000ce4604a0000000000000000000000001",
+                "allMethods": [
+                    {
+                        "contractName": "BasicMathBad",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "add_uncheck",
+                        "notpayable": true,
+                        "originalFile": "BasicMathBad.sol",
+                        "paramNames": [
+                            "a",
+                            "b"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "f4913f33",
+                        "sourceBytes": {
+                            "begin": 28,
+                            "size": 135
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "public"
+                    }
+                ],
+                "bytecode": "608060405234801561000f575f80fd5b5060043610610029575f3560e01c8063f4913f331461002d575b5f80fd5b61004760048036038101906100429190610133565b61005d565b6040516100549190610180565b60405180910390f35b5f64f196e500007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0000000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0000600152818302905092915050565b5f80fd5b5f819050919050565b61011281610100565b811461011c575f80fd5b50565b5f8135905061012d81610109565b92915050565b5f8060408385031215610149576101486100fc565b5b5f6101568582860161011f565b92505060206101678582860161011f565b9150509250929050565b61017a81610100565b82525050565b5f6020820190506101935f830184610171565b9291505056fea26469706673582212204f242a7014b19ac3f514e36ad0767c0fb4b0e69eaf25e1d3234e080ea6a53dbc64736f6c63430008190033",
+                "compilerName": "solc",
+                "compilerParameters": {
+                    "optimizerOn": false,
+                    "optimizerRuns": null,
+                    "type": "SolcParameters",
+                    "viaIR": false
+                },
+                "compilerVersion": "0.8.25",
+                "constructorBytecode": "6080604052348015600e575f80fd5b506101cf8061001c5f395ff3fe608060405234801561000f575f80fd5b5060043610610029575f3560e01c8063f4913f331461002d575b5f80fd5b61004760048036038101906100429190610133565b61005d565b6040516100549190610180565b60405180910390f35b5f64f196e500007fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000000015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0000000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0000600152818302905092915050565b5f80fd5b5f819050919050565b61011281610100565b811461011c575f80fd5b50565b5f8135905061012d81610109565b92915050565b5f8060408385031215610149576101486100fc565b5b5f6101568582860161011f565b92505060206101678582860161011f565b9150509250929050565b61017a81610100565b82525050565b5f6020820190506101935f830184610171565b9291505056fea26469706673582212204f242a7014b19ac3f514e36ad0767c0fb4b0e69eaf25e1d3234e080ea6a53dbc64736f6c63430008190033",
+                "constructorSrcmap": "0:517:0:-:0;;;;;;;;;;;;;;;;;;;",
+                "extensionContracts": [],
+                "file": "BasicMathBad.sol",
+                "immutables": [],
+                "internalFunctions": {
+                    "0xf196e50000": {
+                        "canonicalId": "BasicMathBad.sol|BasicMathBad",
+                        "declaringContract": "BasicMathBad",
+                        "method": {
+                            "contractName": "BasicMathBad",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "add_uncheck",
+                            "notpayable": true,
+                            "originalFile": "BasicMathBad.sol",
+                            "paramNames": [
+                                "a",
+                                "b"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "f4913f33",
+                            "sourceBytes": {
+                                "begin": 28,
+                                "size": 135
+                            },
+                            "stateMutability": "pure",
+                            "visibility": "public"
+                        }
+                    }
+                },
+                "is_static_address": false,
+                "lang": "Solidity",
+                "methods": [
+                    {
+                        "contractName": "BasicMathBad",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "add_uncheck",
+                        "notpayable": true,
+                        "originalFile": "BasicMathBad.sol",
+                        "paramNames": [
+                            "a",
+                            "b"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "f4913f33",
+                        "sourceBytes": {
+                            "begin": 28,
+                            "size": 135
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "public"
+                    }
+                ],
+                "name": "BasicMathBad",
+                "original_file": "BasicMathBad.sol",
+                "solidityTypes": [],
+                "sourceBytes": {
+                    "begin": 0,
+                    "size": 165
+                },
+                "srcmap": "0:517:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;28:487;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;;91:7;203:13;135:66;128:89;293:1;225:66;218:77;371:1;303:66;296:77;449:1;381:66;374:77;497:1;493;:5;486:12;;28:487;;;;:::o;88:117:1:-;197:1;194;187:12;334:77;371:7;400:5;389:16;;334:77;;;:::o;417:122::-;490:24;508:5;490:24;:::i;:::-;483:5;480:35;470:63;;529:1;526;519:12;470:63;417:122;:::o;545:139::-;591:5;629:6;616:20;607:29;;645:33;672:5;645:33;:::i;:::-;545:139;;;;:::o;690:474::-;758:6;766;815:2;803:9;794:7;790:23;786:32;783:119;;;821:79;;:::i;:::-;783:119;941:1;966:53;1011:7;1002:6;991:9;987:22;966:53;:::i;:::-;956:63;;912:117;1068:2;1094:53;1139:7;1130:6;1119:9;1115:22;1094:53;:::i;:::-;1084:63;;1039:118;690:474;;;;;:::o;1170:118::-;1257:24;1275:5;1257:24;:::i;:::-;1252:3;1245:37;1170:118;;:::o;1294:222::-;1387:4;1425:2;1414:9;1410:18;1402:26;;1438:71;1506:1;1495:9;1491:17;1482:6;1438:71;:::i;:::-;1294:222;;;;:::o",
+                "storageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "transientStorageLayout": null,
+                "varmap": ""
+            }
+        ],
+        "legacyStructLinking": {},
+        "library_addresses": [],
+        "primary_contract": "BasicMathBad",
+        "primary_contract_address": "00000000ce4604a0000000000000000000000001",
+        "prototypeFor": [],
+        "sdc_name": "BasicMathBad.sol_0",
+        "sourceDir": ".post_autofinders.0",
+        "srclist": {
+            "0": "BasicMathBad.sol"
+        },
+        "state": {},
+        "structLinkingInfo": {}
+    },
+    "BasicMathGood_00000000ce4604a0000000000000000000000003": {
+        "contracts": [
+            {
+                "address": "00000000ce4604a0000000000000000000000003",
+                "allMethods": [
+                    {
+                        "contractName": "BasicMathGood",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "add",
+                        "notpayable": true,
+                        "originalFile": "BasicMathGood.sol",
+                        "paramNames": [
+                            "a",
+                            "b"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "771602f7",
+                        "sourceBytes": {
+                            "begin": 29,
+                            "size": 93
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "public"
+                    }
+                ],
+                "bytecode": "608060405234801561000f575f80fd5b5060043610610029575f3560e01c8063771602f71461002d575b5f80fd5b6100476004803603810190610042919061013c565b61005d565b6040516100549190610189565b60405180910390f35b5f64f196e500017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000100005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000100015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0001000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000160015281836100fd91906101cf565b905092915050565b5f80fd5b5f819050919050565b61011b81610109565b8114610125575f80fd5b50565b5f8135905061013681610112565b92915050565b5f806040838503121561015257610151610105565b5b5f61015f85828601610128565b925050602061017085828601610128565b9150509250929050565b61018381610109565b82525050565b5f60208201905061019c5f83018461017a565b92915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f6101d982610109565b91506101e483610109565b92508282019050808211156101fc576101fb6101a2565b5b9291505056fea2646970667358221220f9165b481071b028e133442179e636cbd4188b4581958a090278e69c27650d6c64736f6c63430008190033",
+                "compilerName": "solc",
+                "compilerParameters": {
+                    "optimizerOn": false,
+                    "optimizerRuns": null,
+                    "type": "SolcParameters",
+                    "viaIR": false
+                },
+                "compilerVersion": "0.8.25",
+                "constructorBytecode": "6080604052348015600e575f80fd5b506102388061001c5f395ff3fe608060405234801561000f575f80fd5b5060043610610029575f3560e01c8063771602f71461002d575b5f80fd5b6100476004803603810190610042919061013c565b61005d565b6040516100549190610189565b60405180910390f35b5f64f196e500017fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000100005260027fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000100015260097fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff0001000552817fffffff6e4604afefe123321beef1b01fffffffffffffffffffffffff000160015281836100fd91906101cf565b905092915050565b5f80fd5b5f819050919050565b61011b81610109565b8114610125575f80fd5b50565b5f8135905061013681610112565b92915050565b5f806040838503121561015257610151610105565b5b5f61015f85828601610128565b925050602061017085828601610128565b9150509250929050565b61018381610109565b82525050565b5f60208201905061019c5f83018461017a565b92915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f6101d982610109565b91506101e483610109565b92508282019050808211156101fc576101fb6101a2565b5b9291505056fea2646970667358221220f9165b481071b028e133442179e636cbd4188b4581958a090278e69c27650d6c64736f6c63430008190033",
+                "constructorSrcmap": "0:476:0:-:0;;;;;;;;;;;;;;;;;;;",
+                "extensionContracts": [],
+                "file": "BasicMathGood.sol",
+                "immutables": [],
+                "internalFunctions": {
+                    "0xf196e50001": {
+                        "canonicalId": "BasicMathGood.sol|BasicMathGood",
+                        "declaringContract": "BasicMathGood",
+                        "method": {
+                            "contractName": "BasicMathGood",
+                            "fullArgs": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                },
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "isLibrary": false,
+                            "name": "add",
+                            "notpayable": true,
+                            "originalFile": "BasicMathGood.sol",
+                            "paramNames": [
+                                "a",
+                                "b"
+                            ],
+                            "returns": [
+                                {
+                                    "location": "stack",
+                                    "typeDesc": {
+                                        "primitiveName": "uint256",
+                                        "type": "Primitive"
+                                    }
+                                }
+                            ],
+                            "sighash": "771602f7",
+                            "sourceBytes": {
+                                "begin": 29,
+                                "size": 93
+                            },
+                            "stateMutability": "pure",
+                            "visibility": "public"
+                        }
+                    }
+                },
+                "is_static_address": false,
+                "lang": "Solidity",
+                "methods": [
+                    {
+                        "contractName": "BasicMathGood",
+                        "fullArgs": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            },
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "isLibrary": false,
+                        "name": "add",
+                        "notpayable": true,
+                        "originalFile": "BasicMathGood.sol",
+                        "paramNames": [
+                            "a",
+                            "b"
+                        ],
+                        "returns": [
+                            {
+                                "location": "stack",
+                                "typeDesc": {
+                                    "primitiveName": "uint256",
+                                    "type": "Primitive"
+                                }
+                            }
+                        ],
+                        "sighash": "771602f7",
+                        "sourceBytes": {
+                            "begin": 29,
+                            "size": 93
+                        },
+                        "stateMutability": "pure",
+                        "visibility": "public"
+                    }
+                ],
+                "name": "BasicMathGood",
+                "original_file": "BasicMathGood.sol",
+                "solidityTypes": [],
+                "sourceBytes": {
+                    "begin": 0,
+                    "size": 124
+                },
+                "srcmap": "0:476:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;29:445;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;;84:7;196:13;128:66;121:89;286:1;218:66;211:77;364:1;296:66;289:77;442:1;374:66;367:77;466:1;462;:5;;;;:::i;:::-;455:12;;29:445;;;;:::o;88:117:1:-;197:1;194;187:12;334:77;371:7;400:5;389:16;;334:77;;;:::o;417:122::-;490:24;508:5;490:24;:::i;:::-;483:5;480:35;470:63;;529:1;526;519:12;470:63;417:122;:::o;545:139::-;591:5;629:6;616:20;607:29;;645:33;672:5;645:33;:::i;:::-;545:139;;;;:::o;690:474::-;758:6;766;815:2;803:9;794:7;790:23;786:32;783:119;;;821:79;;:::i;:::-;783:119;941:1;966:53;1011:7;1002:6;991:9;987:22;966:53;:::i;:::-;956:63;;912:117;1068:2;1094:53;1139:7;1130:6;1119:9;1115:22;1094:53;:::i;:::-;1084:63;;1039:118;690:474;;;;;:::o;1170:118::-;1257:24;1275:5;1257:24;:::i;:::-;1252:3;1245:37;1170:118;;:::o;1294:222::-;1387:4;1425:2;1414:9;1410:18;1402:26;;1438:71;1506:1;1495:9;1491:17;1482:6;1438:71;:::i;:::-;1294:222;;;;:::o;1522:180::-;1570:77;1567:1;1560:88;1667:4;1664:1;1657:15;1691:4;1688:1;1681:15;1708:191;1748:3;1767:20;1785:1;1767:20;:::i;:::-;1762:25;;1801:20;1819:1;1801:20;:::i;:::-;1796:25;;1844:1;1841;1837:9;1830:16;;1865:3;1862:1;1859:10;1856:36;;;1872:18;;:::i;:::-;1856:36;1708:191;;;;:::o",
+                "storageLayout": {
+                    "storage": [],
+                    "types": null
+                },
+                "transientStorageLayout": null,
+                "varmap": ""
+            }
+        ],
+        "legacyStructLinking": {},
+        "library_addresses": [],
+        "primary_contract": "BasicMathGood",
+        "primary_contract_address": "00000000ce4604a0000000000000000000000003",
+        "prototypeFor": [],
+        "sdc_name": "BasicMathGood.sol_1",
+        "sourceDir": ".post_autofinders.1",
+        "srclist": {
+            "0": "BasicMathGood.sol"
+        },
+        "state": {},
+        "structLinkingInfo": {}
+    }
+}

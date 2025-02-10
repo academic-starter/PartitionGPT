@@ -1,0 +1,106 @@
+[
+    {
+        "eventName": "MintMessagePassing",
+        "privateMethod": {
+            "name": "mint",
+            "params": [
+                "user",
+                "mintedAmount"
+            ]
+        }
+    },
+    {
+        "eventName": "TransferMessagePassing",
+        "privateMethod": {
+            "name": "transfer",
+            "params": [
+                "sender",
+                "to",
+                "amount"
+            ]
+        },
+        "callback": {
+            "contract": "public",
+            "method": "transfer_callback",
+            "params": [
+                "sender",
+                "to",
+                "amount"
+            ]
+        }
+    },
+    {
+        "eventName": "BalanceOfMessagePassing",
+        "privateMethod": {
+            "name": "balanceOf",
+            "params": [
+                "wallet"
+            ]
+        },
+        "callback": {
+            "contract": "public",
+            "method": "balanceOf_callback",
+            "params": [
+                "bal"
+            ]
+        }
+    },
+    {
+        "eventName": "ApproveMessagePassing",
+        "privateMethod": {
+            "name": "approve",
+            "params": [
+                "owner",
+                "spender",
+                "amount"
+            ]
+        },
+        "callback": {
+            "contract": "public",
+            "method": "approve_callback",
+            "params": [
+                "owner",
+                "spender",
+                "amount"
+            ]
+        }
+    },
+    {
+        "eventName": "AllowanceMessagePassing",
+        "privateMethod": {
+            "name": "allowance",
+            "params": [
+                "owner",
+                "spender"
+            ]
+        },
+        "callback": {
+            "contract": "public",
+            "method": "allowance_callback",
+            "params": [
+                "amt"
+            ]
+        }
+    },
+    {
+        "eventName": "TransformMessagePassing",
+        "privateMethod": {
+            "name": "transferFrom",
+            "params": [
+                "from",
+                "to",
+                "spender",
+                "amount"
+            ]
+        },
+        "callback": {
+            "contract": "public",
+            "method": "transferFrom_callback",
+            "params": [
+                "sender",
+                "to",
+                "amount"
+            ]
+        }
+    }
+]

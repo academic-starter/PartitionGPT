@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "BasicMathBad",
+    "specfile": "/home/vscode/.local/lib/python3.10/site-packages/certora_cli/EquivalenceCheck/sanity.spec",
+    "specfileOrigRelpath": "../../../../home/vscode/.local/lib/python3.10/site-packages/certora_cli/EquivalenceCheck/sanity.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

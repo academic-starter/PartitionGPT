@@ -1,0 +1,39 @@
+{
+  "name": "privacy-contracts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "yarn hardhat compile",
+    "test-nft": "yarn test ./test-hardhat/confidential-nft.test.ts",
+    "test-erc20": "yarn test ./test-hardhat/confidential-erc20.test.ts",
+    "test-auction": "yarn test ./test-hardhat/confidential-auction.test.ts",
+    "test-identity": "yarn test ./test-hardhat/confidential-identity.test.ts",
+    "test-precompiles": "yarn test ./test-hardhat/precompile.test.ts",
+    "test": "yarn hardhat test"
+  },
+  "devDependencies": {
+    "@coti-io/coti-sdk-typescript": "https://github.com/coti-io/coti-sdk-typescript.git",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-ignition": "^0.15.0",
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@typechain/ethers-v6": "^0.5.0",
+    "@typechain/hardhat": "^9.0.0",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": ">=9.1.0",
+    "@types/node": ">=18.0.0",
+    "chai": "^4.2.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.4.0",
+    "hardhat": "^2.22.2",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.0",
+    "ts-node": ">=8.0.0",
+    "typechain": "^8.3.0",
+    "typescript": ">=4.5.0"
+  }
+}

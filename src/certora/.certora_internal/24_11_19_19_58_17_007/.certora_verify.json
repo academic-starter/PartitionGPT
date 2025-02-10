@@ -1,0 +1,8 @@
+{
+    "importFilesToOrigRelpaths": {},
+    "primary_contract": "BasicMathGood",
+    "specfile": "add_BasicMathGood_to_add_uncheck_BasicMathBad_equivalence.spec",
+    "specfileOrigRelpath": "add_BasicMathGood_to_add_uncheck_BasicMathBad_equivalence.spec",
+    "specfilesToImportDecls": {},
+    "type": "spec"
+}

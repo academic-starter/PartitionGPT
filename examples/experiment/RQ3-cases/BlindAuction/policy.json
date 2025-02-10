@@ -1,0 +1,45 @@
+[
+    {
+        "eventName": "BidMessagePassing",
+        "privateMethod": {
+            "name": "bid",
+            "params": ["to", "value"] 
+        },
+        "callback": {
+            "contract": "public", 
+            "method": "bid_callback",
+            "params": ["increment"] 
+        }
+    },
+    {
+        "eventName": "GetBidMessagePassing",
+        "privateMethod": {
+            "name": "getBid",
+            "params": ["account"] 
+        },
+        "callback": {
+            "contract": "public", 
+            "method": "getBid_callback",
+            "params": ["amount"] 
+        }
+    },
+    {
+        "eventName": "ClaimMessagePassing",
+        "privateMethod": {
+            "name": "claim",
+            "params": ["user"] 
+        },
+        "callback": {
+            "contract": "public", 
+            "method": "claim_callback",
+            "params": ["enable_claim"] 
+        }
+    },
+    {
+        "eventName": "WithdrawMessagePassing",
+        "privateMethod": {
+            "name": "withdraw",
+            "params": ["sender"] 
+        }
+    }
+]
